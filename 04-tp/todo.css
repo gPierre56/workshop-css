@@ -1,0 +1,30 @@
+body {
+    background-color:#000099;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+h1 {
+    color: azure;
+    font-family: 'Helvetica', 'Arial';
+}
+ul{
+    
+}
+li{
+    border-radius: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 10px;
+    list-style: none;
+}
+input{
+    height: 2rem;
+    border-radius: 3px;
+}
+input[type="submit"] {
+    border-radius: 8px;
+}
+

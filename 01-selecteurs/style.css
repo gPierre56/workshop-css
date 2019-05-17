@@ -1,22 +1,22 @@
-/* sélecteur simple
+/* sélecteur simple*/
 header {
   font-size: 2em;
 }
-*/
 
-/* sélecteur multiple
+
+/* sélecteur multiple*/
 header, footer {
   color: orange;
 }
-*/
 
-/* propriétés combinées
+
+/* propriétés combinées*/
 header {
   border : 1px solid red;
 }
-*/
 
-/* sélecteur d'attributs
+
+/* sélecteur d'attributs*/
 input[type="submit"] {
   color: pink;
 }
@@ -24,43 +24,42 @@ input[type="submit"] {
 input[type^="te"] {
   color: green;
 }
-*/
 
-/* pseudo - hover
+
+/* pseudo - hover*/
 form:hover {
   background-color: red;
 }
-*/
 
-/* pseudo - before
+
+/* pseudo - before*/
 .left-aside:before {
     color:red;
     content: 'du texte depuis css';
 }
-*/
 
-/* pseudo - after
+
+/* pseudo - after*/
 .left-aside:after {
     color:red;
     content: '\2605';
 }
-*/
 
-/* pseudo - first-letter
+
+/* pseudo - first-letter*/
 main p:first-letter {
     color:red;
 }
-*/
 
-/* pseudo - first-line
+
+/* pseudo - first-line*/
 main p:first-line {
     color:red;
 }
-*/
 
 
-/* pseudo - focus
+
+/* pseudo - focus*/
 input:focus {
     background-color: blue;
 }
-*/
